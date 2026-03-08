@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>З 8 Березня!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/css/styles.css" />
+</head>
+
+<body>
+    <div class="container" id="screen-envelope">
+        <h1 class="header-text" id="envelope-title">Для тебе!</h1>
+
+        <div class="gif-container" id="envelope-wrapper">
+            <img src="./style/images/envelope.png" alt="Envelope" class="selector-block" id="envelope-img">
+        </div>
+
+        <div class="buttons" id="open-btn-container">
+            <button class="btn" onclick="stealEnvelope()">Відкрити</button>
+        </div>
+
+        <img src="./style/images/paw.png" alt="Cat Paw" id="thief-paw">
+    </div>
+
+    <div class="container" id="screen-game">
+        <h1 class="header-text">Котик вкрав привітання!</h1>
+        <p class="text">Лови його!</p>
+
+        <img src="./style/images/catThief.gif" alt="Running cat" id="running-cat" onclick="catchCat()" />
+    </div>
+
+    <div class="container" id="screen-final">
+        <div class="gif-container" id="final-gifs">
+            <img src="./style/images/envelopeOpen.png" alt="Opened Envelope" class="selector-block" />
+            <img src="./style/images/catFlowers.gif" alt="Cat with flowers" class="selector-block" />
+        </div>
+        <div class="paper-note">
+            <p class="text final-text">
+                <strong>З 8 Березня!</strong> Це день жіночої сили, сміливості та незалежності.<br><br>Бажаю невичерпної
+                енергії для втілення мрій у реальність та сил для подолання будь-яких перешкод. Нехай завжди вдається
+                просто бути
+                собою, а кожен день приносить щиру радість.
+                Залишайся такою ж розумною, незалежною та мега гіпер крутою!<br><br>
+                Зі святом рівності та весни!
+            </p>
+            <p class="text final-text" style="text-align: right; margin-top: 15px; font-size: 26px;">
+                from yuzai
+            </p>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
